@@ -1,0 +1,79 @@
+agent.exe
+*.exe
+# -------------------------
+# Compiled source
+# -------------------------
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.obj
+
+# Static and shared libs
+*.a
+*.lib
+*.la
+*.lo
+
+# -------------------------
+# Build directories
+# -------------------------
+build/
+Build/
+build-debug/
+build-release/
+cmake-build-*/
+dist/
+bin/
+lib/
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+*.code-workspace
+
+# -------------------------
+# CMake cache + files
+# -------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# -------------------------
+# Logs & Debug
+# -------------------------
+*.log
+*.dSYM/
+*.pdb
+*.ipdb
+*.pdb
+*.mod
+*.dbg
+
+# -------------------------
+# OS-generated files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Temporary files
+# -------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+
+# -------------------------
+# GitHub Actions temporary
+# -------------------------
+*.artifact
